@@ -1,0 +1,10 @@
+org 200
+data1 db 20
+data2 dw 20
+data3 dq 20
+.code
+mov ax,0
+mov cx,10
+label1: mov bx,ax
+dec cx
+jnz label1
